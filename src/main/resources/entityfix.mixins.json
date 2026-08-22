@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.entityfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+    "WorldMixin",
+    "ai.SensorMixin",
+    "ai.BrainMixin",
+    "navigation.EntityNavigationMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

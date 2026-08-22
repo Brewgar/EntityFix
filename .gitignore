@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Tooling downloaded for local builds (see README)
+.tools/
+
+# Decompiled Minecraft classes extracted during development (see README)
+net/
+
+# Run directory used during development
+run/

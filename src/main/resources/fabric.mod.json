@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "entityfix",
+  "version": "${version}",
+  "name": "EntityFix",
+  "description": "Entity performance optimizations for Minecraft 1.20.1. Eliminates redundant entity simulation work (sensors, navigation, pathfinding) through event-driven invalidation instead of fixed throttling.",
+  "authors": [
+    "EntityFix contributors"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.entityfix.EFMod"
+    ]
+  },
+  "mixins": [
+    "entityfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
