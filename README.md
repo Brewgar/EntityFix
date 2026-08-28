@@ -4,4 +4,4 @@
 
 EntityFix reduces the main-thread CPU cost of entity simulation by eliminating
 *redundant* computation - not by throttling AI, skipping ticks, or lowering
-simulation accuracy. May cause problems with 
+simulation accuracy. May cause problems with larger worlds.
